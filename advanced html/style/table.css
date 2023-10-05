@@ -1,0 +1,17 @@
+table,th,td{
+    border: 3px;
+    border-style: ridge;
+    border-color: blue;
+    border-collapse:collapse;
+
+    
+}
+tr:nth-child(even) 
+{
+    background-color: #198951;
+}
+
+td:nth-child(even), th:nth-child(even) 
+{
+    background-color: #18bcbc;
+}
